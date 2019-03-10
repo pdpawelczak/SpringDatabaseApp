@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Customer {
+public class CustomerForm {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,10 +17,6 @@ public class Customer {
     private String lastName;
 
     private String email;
-
-    public Customer(){
-
-    }
 
     public long getId() {
         return id;
