@@ -2,7 +2,6 @@ package com.SpringDatabaseApp.demo.piotr.service;
 
 import com.SpringDatabaseApp.demo.piotr.model.Customer;
 import com.SpringDatabaseApp.demo.piotr.repository.CustomerRepository;
-import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,6 @@
 package com.SpringDatabaseApp.demo.piotr.controller;
 
 import com.SpringDatabaseApp.demo.piotr.model.Customer;
-import com.SpringDatabaseApp.demo.piotr.repository.CustomerRepository;
-import com.SpringDatabaseApp.demo.piotr.service.CustomerService;
 import com.SpringDatabaseApp.demo.piotr.service.CustomerServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
